@@ -1,12 +1,18 @@
-﻿using System;
+﻿    using System;
 
-class Principal
-{
-    static void Main(string[] args)
+    class Principal
     {
-        //Criando um objeto da classe carro
-        Carro meuCarro = new Carro("Azul", "Fusca", 1980);
+        static void Main(string[] args){
+            Animal a = new Animal("aLUizio");
+            a.comer();
+            Cachorro b = new Cachorro("thor");
+            b.comer();
+            b.latir();
 
-        Carro meuOutroCarro = new Carro("Vermelho", "Civic", 2022);
-    }
-}
+            Animal animal = new Gato("eu");
+            animal.Emitirsom();
+          
+          
+
+        }       
+        }
